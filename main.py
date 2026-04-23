@@ -41,8 +41,8 @@ TOGGLE_HOVER = BTN_HOVER
 
 # ---------------- MODELS ----------------
 models = {
-    "LightGBM": joblib.load(resource_path("channel_selector_model.pkl")),
-    "Decision Tree": joblib.load(resource_path("channel_model.pkl"))
+    "LightGBM": joblib.load("channel_selector_model.pkl"),
+    "Decision Tree": joblib.load("channel_model.pkl")
 }
 
 FEATURE_COLUMNS = ["R", "G", "B", "Y", "variance"]
