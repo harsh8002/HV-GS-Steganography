@@ -1,6 +1,7 @@
 # HV-GS Steganography Tool
 
-An adaptive image steganography system using machine learning and key-based randomization.
+An adaptive LSB image steganography system using machine learning and key-based randomization.
+-> Resistamt to LSBR kind attacks (Tested ✔️)
 
 ## Features
 
@@ -21,6 +22,8 @@ pip install -r requirements.txt
 ## How to Run
 
 ```
+Keep both the models channel_selecter_model.pkl and channel_model.pkl in same folder as main.py and run main.py
+
 python main.py
 ```
 
