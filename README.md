@@ -20,11 +20,18 @@ An adaptive LSB image steganography system using machine learning and key-based 
 ## Requirements
 
 * Python 3.8+
-* Install dependencies:
+* ## Installation
+
+1. **Install System Dependencies (Linux Only):**
+   If you are on a Debian/Ubuntu-based Linux system, you must install the Tkinter system package before running the tool:
+   ```bash
+   sudo apt update
+   sudo apt install python3-tk
 
 ```
 pip install -r requirements.txt
 ```
+
 
 ## How to Run
 
