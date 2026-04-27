@@ -12,6 +12,7 @@ An adaptive LSB image steganography system using machine learning and key-based 
 
 ## Features
 
+* Python based, so works on every system provided dependencies are installed.
 * ML-based channel selection (LightGBM + Decision Tree)
 * Key-controlled pixel randomization
 * LSB embedding
